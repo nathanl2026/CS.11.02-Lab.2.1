@@ -43,7 +43,7 @@ public class Main {
 
     // 8. roundNegativeValueToNearestInteger
     public static int roundNegativeValueToNearestInteger(double number) {
-        return (int) Math.round(number);
+        return (int) Math.round(number * -1) * -1;
     }
 
 
