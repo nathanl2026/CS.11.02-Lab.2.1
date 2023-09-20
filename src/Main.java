@@ -10,9 +10,8 @@ public class Main {
     }
     
     // 2. add
-
     public static int add(int a, int b, int c, int d) {
-        return add(add(add(a, b),c),d);
+        return add(add(add(a, b), c), d);
     }
 
     // 3. morningGreeting
@@ -27,11 +26,11 @@ public class Main {
 
     // 5. triple
     public static String triple(String text) {
-        return "\"" + text + text + text + "\"";
+        return text + text + text ;
     }
 
     // 6. half
-    public static int half(int number) {
+    public static double half(double number) {
         return number / 2;
     }
 
